@@ -36,9 +36,7 @@ install:
 
 script:
 
-  - echo "Reached Script Section - Hello"
-  - gcc Calculator.c -o output
-  - ./output
-  - size ./output
-  
   - echo "Reached Script Section - Marko CUnit"
+  - gcc Calculator.c cunit_tests.c -o cunit_democode -l cunit
+  - ./cunit_democode
+  - size cunit_democode
