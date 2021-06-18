@@ -39,4 +39,3 @@ script:
   - echo "Reached Script Section - Hello"
   - gcc calculator.c -o output
   - ./output
-  - size ./output
