@@ -17,5 +17,5 @@ install:
 script:
 
   - echo "Reached Script Section - Hello"
-  - gcc calculator.c -o output
+  - gcc Calculator.c -o output
   - ./output
