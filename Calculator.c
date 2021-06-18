@@ -21,7 +21,6 @@ int divide(int x, int y) {
   return x/y;
 }
 
-int main() {
+int main(void) {
   
-  return 1;
 }
